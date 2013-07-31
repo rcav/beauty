@@ -1,0 +1,8 @@
+.pagination span {
+    border-bottom: 3px solid #D1D1D1;
+    padding-top: 12px;
+}
+.rev_slider img {
+    height: auto!important;
+    width: auto!important;
+}

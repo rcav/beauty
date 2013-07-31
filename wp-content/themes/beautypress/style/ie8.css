@@ -1,0 +1,25 @@
+.rev_slider img {
+    height: auto!important;
+    width: auto!important;
+}
+
+.bg-input input {height: 15px; padding: 15px 15px 15px 15px}
+
+.content-top-image {margin-bottom: -1px;}
+
+.form-input .datepicker {height: 15px; padding: 13px}
+
+.home-services-one-image-title {margin-left: 0}
+.home-services-one-image-title span {width: 85%}
+.home-services-one-image-title p {width: 85%}
+
+.toggle-holder {width: 95%}
+.toggle-holder span {max-width: 85%}
+
+textarea {overflow: auto;}
+
+.flexslider-part .horisontal-text {background: url(../style/img/bg-transparent.png) repeat;}
+
+.da-thumbs li a div {background: url(../style/img/bg-transparent.png) repeat;}
+
+.home-latest-news-one-image .horisontal-images-hover {background: url(../style/img/bg-transparent.png) repeat;}

@@ -1,0 +1,123 @@
+/*
+Theme Name: Beautypress
+Support URI: http://www.themeskingdom.com/support/
+Description: The Beautypress WordPress Theme is originally designed for beauty, healthcare, spa, therapy, massage salon websites, it can be easily adapted to any kind of website due to all the features theme has.
+Author: Themeskingdom
+Author URI: http://www.themeskingdom.com/support/
+Version: 1.3
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Theme URI: http://www.themeskingdom.com/
+Tags: one-column, two-columns, three-columns, four-columns, featured-images, post-formats, theme-options, threaded-comments, translation-ready
+*/
+
+@import url("style/reset.css");
+@import url("style/style.css");
+@import url("style/shortcodes.css"); 
+
+
+body {position:relative; overflow-x:hidden;}
+
+/*Appointmen calendar*/
+
+body .reservation-page #ui-datepicker-div {
+    background-color:#fff; 
+    padding:8px 17px 17px 17px;
+    font-size:13px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:1px solid #dfdfdf;
+    color:#868686;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -khtml-border-radius: 0 0 3px 3px;    
+}
+
+body .reservation-page #ui-datepicker-div a {
+    color:#5d5d5d;
+    font-weight:bold;
+    font-family: 'Lato', sans-serif;
+    width:30px;
+    padding:6px 0 6px 0;
+    display:block;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div a:hover, .ui-datepicker-current-day a {
+    color:#fff;
+    background-color:#5d5d5d;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div td{
+    padding:0;
+    text-align:center;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div th {
+    font-family:'Merriweather', serif;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div thead {
+    margin:10px 0 10px 0;
+
+}
+
+body .page-template-_reservations-php #ui-datepicker-div.ui-datepicker-calendar {
+    border-top:1px solid #dfdfdf;
+    padding:10px 0 0 0;
+    float:left;
+    width:100%;
+    display:inline-block;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div .ui-datepicker-title {
+    margin:7px 0 10px 0;
+    font-family:'Merriweather', serif;
+    width:100px;
+    float:right;
+    text-align:right;
+}
+
+body .page-template-_reservations-php #ui-datepicker-div .ui-datepicker-header a {
+    margin:0 3px 0 0;
+    display:inline-block;
+}
+
+
+body .page-template-_reservations-php  #ui-datepicker-div .ui-datepicker-next:hover, .reservation-page #ui-datepicker-div .ui-datepicker-prev:hover {
+    background-color:transparent;
+    color:#343434;
+}
+
+.page-template-_reservations-php .ui-widget-header {
+    background:none !important;
+    border:none !important;
+    color:#747474 !important;
+    text-align:left;
+}
+
+.page-template-_reservations-php .ui-state-default, .page-template-_reservations-php .ui-widget-content .ui-state-default {
+    color:#747474;
+    border:1px solid #fff;
+}
+
+.page-template-_reservations-php .ui-state-default:hover, .page-template-_reservations-php .ui-widget-content .ui-state-default:hover, .page-template-_reservations-php .ui-state-highlight, .page-template-_reservations-php .ui-widget-content .ui-state-highlight {
+    background-color:#747474;
+    color:#fff;
+}
+
+.page-template-_reservations-php .ui-widget-header a.ui-datepicker-next, .page-template-_reservations-php .ui-widget-header a span {
+    color:#747474 !important;
+    text-indent:0 !important;
+    width:40px;
+}
+
+.page-template-_reservations-php .ui-widget-header a.ui-datepicker-next, .page-template-_reservations-php .ui-widget-header a:hover {
+    border:none;
+}

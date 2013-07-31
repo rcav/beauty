@@ -1,0 +1,36 @@
+/*--- SCROLL TOP ---*/
+.scroll-top {
+    bottom: 10px;
+    float: right;
+    height: 43px;
+    position: fixed;
+    right: 23px;
+    width: 44px;
+    z-index: 999999;
+}
+
+#back-top {
+    width: 44px;
+    height: 43px;
+    z-index: 999999;
+    display: none;
+}
+
+#back-top a {
+    float: right;
+    width: 44px;
+    height: 43px;
+    position: relative;
+    color: #323232;
+    font-size: 12px;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#back-top span {
+    float: right;
+    width: 44px;
+    height: 43px;
+    display: block;
+    background: url(img/scroll-top.png) no-repeat top left;
+}
+#back-top span:hover { background-position: bottom; }
